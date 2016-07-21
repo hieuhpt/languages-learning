@@ -1,0 +1,9 @@
+.panel-group .panel-title a[data-toggle=collapse]:hover {
+    text-decoration: none !important;
+    font-weight: bolder;
+    color: #000;
+}
+
+.panel-group .panel-title a[data-toggle=collapse] {
+    font-size: 30px;
+}
