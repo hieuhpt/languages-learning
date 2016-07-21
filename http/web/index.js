@@ -3,7 +3,7 @@ var kanji = require('../../kanji');
 var KanjiRequiredMiddware = require('../middleware/kanji-required');
 
 webRouter.get('/kanji/create', function (request, response) {
-    response.render('./kanji/create-form.nj.html');
+    response.render('./kanji/create.nj.html');
 });
 
 webRouter.post('/kanji', function (request, response) {

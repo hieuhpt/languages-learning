@@ -1,5 +1,7 @@
 module.exports = function (request, response, next) {
+
     var id = request.query.id || request.body.id || request.params.id;
+
     try {
         var kanjiId = request.app.get('mongodb').ObjectID(id);
     } catch (err) {
